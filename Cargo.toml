@@ -1,0 +1,16 @@
+[package]
+name = "pretty-token-stream"
+version = "0.1.0"
+authors = ["Daiki Mizukami <tesaguriguma@gmail.com>"]
+edition = "2018"
+publish = false
+description = """
+Color `TokenStream` tokens whose `Span` is not of `call_site`.
+"""
+
+[dependencies]
+atty = "0.2"
+cfg-if = "0.1"
+nix = "0.14"
+proc-macro2 = "0.4"
+term = "0.5"
